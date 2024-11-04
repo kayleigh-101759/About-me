@@ -1,0 +1,26 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/011/442/806/non_2x/3d-football-stadium-with-soccer-goal-front-view-template-for-your-design-vector.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #5573e8;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative; /* Allows the circle to move */
+    animation: moveCircle 2s ease-in-out infinite alternate;
+}
+ 
+@keyframes moveCircle {
+    0% {
+        top: 300px;
+        left: 300px;
+    }
+    100% {
+        top: 455px;
+        left: 560px;
+    }
+}
